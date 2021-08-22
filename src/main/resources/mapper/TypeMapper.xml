@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qr.blog.mapper.TypeMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.qr.blog.pojo.Type">
+        <id column="type_id" property="typeId"/><!--type_id自增-->
+        <result column="type_name" property="typeName"/>
+        <result column="type_blog_count" property="typeBlogCount"/><!--type_blog_count 默认为0-->
+        <result column="enable" property="enable"/><!--enable 默认为1-->
+        <result column="deleted" property="deleted"/><!--deleted 默认为0-->
+    </resultMap>
+
+    <insert id="save">
+        insert into bl_type(type_name)
+        values (#{typeName})
+    </insert>
+
+    <select id="getById" resultMap="BaseResultMap">
+        select type_id, type_name, type_blog_count, enable
+        from bl_type
+        where type_id = #{id}
+    </select>
+    
+    <update id="update">
+        update bl_type
+        <set>
+            <if test="typeName != null and typeName != ''">
+                type_name = #{typeName},
+            </if>
+            <if test="typeBlogCount != null">
+                type_blog_count = #{typeBlogCount},
+            </if>
+            <if test="enable != null">
+                enable = #{enable},
+            </if>
+        </set>
+        where type_id = #{typeId}
+    </update>
+
+    <update id="delete">
+        update bl_type
+        set deleted = 1
+        where type_id = #{id}
+    </update>
+    
+    <select id="getAllTypes" resultMap="BaseResultMap">
+        select type_id, type_name, type_blog_count, enable
+        from bl_type
+        where deleted = 0;
+    </select>
+
+    <select id="getByIds" resultMap="BaseResultMap">
+        select type_id, type_name
+        from bl_type
+        where type_id in (
+            <foreach collection="list" separator="," item="id">
+                #{id}
+            </foreach>
+            )
+    </select>
+</mapper>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qr.blog.mapper.MusicMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.qr.blog.pojo.Music">
+        <id column="id" property="id"/><!--自增-->
+        <result column="name" property="name"/>
+        <result column="artist" property="artist"/>
+        <result column="url" property="url"/>
+        <result column="cover" property="cover"/>
+        <result column="lrc" property="lrc"/><!--歌词-->
+        <result column="created_time" property="createdTime"/>
+        <result column="enable" property="enable"/>
+        <result column="deleted" property="deleted"/>
+    </resultMap>
+    <insert id="save" useGeneratedKeys="true">
+        insert into bl_music(name, artist, url, lrc)
+        VALUES(#{name}, #{artist}, #{url},  #{lrc})
+    </insert>
+
+    <update id="update">
+        update bl_music
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="artist != null and artist != ''">
+                artist = #{artist},
+            </if>
+            <if test="url != null and url != ''">
+                url = #{url},
+            </if>
+            <if test="lrc != null and lrc != ''">
+                lrc = #{lrc},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <update id="deleteById">
+        update bl_music
+        set deleted = 1
+        where id = #{id}
+    </update>
+
+    <update id="updateEnable">
+        update bl_music
+        set enable = #{enable}
+        where id = #{id}
+    </update>
+
+    <select id="getById" resultMap="BaseResultMap">
+        select id, name, artist, url, lrc, created_time, enable, deleted
+        from bl_music
+        where id = #{id}
+    </select>
+
+    <select id="getByPage" resultMap="BaseResultMap">
+                select id, name, artist, url, created_time, enable
+                from bl_music
+                where deleted = 0
+        <if test="params.name != null and params.name != '' ">
+            and name like concat('%', #{params.name}, '%')
+        </if>
+        <if test="params.artist != null and params.artist != ''">
+            and artist like concat('%', #{params.artist}, '%')
+        </if>
+        <if test="params.enable != null">
+            and enable = #{params.enable}
+        </if>
+        order by created_time desc
+        limit #{index}, #{pageSize}
+    </select>
+
+    <select id="getCountByPage" resultType="java.lang.Integer">
+        select count(*)
+        from bl_music
+        where deleted = 0
+        <if test="params.name != null and params.name = '' ">
+            and name like concat('%', #{params.name},'%')
+        </if>
+        <if test="params.enable != null">
+            and enable = #{params.enable}
+        </if>
+    </select>
+
+    <select id="getAllEnable" resultMap="BaseResultMap">
+        select id, name, artist, url, created_time, enable, lrc
+        from bl_music
+        where deleted = 0 and enable = 1
+        order by created_time
+    </select>
+</mapper>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qr.blog.mapper.UserMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.qr.blog.pojo.User">
+        <id column="user_id" property="userId"/><!-- 自增id -->
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="name" property="name"/>
+        <result column="header" property="header"/>
+        <result column="sex" property="sex"/>
+        <result column="nickname" property="nickname"/>
+        <result column="user_email" property="userEmail"/>
+        <result column="created_time" property="createdTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="deleted" property="deleted"/>
+        <result column="signature" property="signature"/>
+        <result column="comment" property="comment"/>
+    </resultMap>
+
+    <insert id="save">
+        insert into bl_user(username, password, name, sex, header, nickname, user_email)
+        values(#{username}, #{password}, #{name}, #{sex}, #{header}, #{nickname}, #{userEmail})
+    </insert>
+
+    <update id="updatePwd">
+        update bl_user
+        set password = #{password}
+        where user_id = #{userId}
+    </update>
+
+    <update id="updateInfo">
+        update bl_user
+        set name = #{name}, sex = #{sex}, header = #{header}, user_email = #{userEmail}
+        where user_id = #{userId}
+    </update>
+
+    <select id="getUserByUsername" resultMap="BaseResultMap">
+        select user_id, username, password, name, sex, header, nickname, user_email
+        from bl_user
+        where username = #{username} and deleted = 0
+    </select>
+    <select id="getSysUser" resultMap="BaseResultMap">
+        select user_id, name, header, signature, comment
+        from bl_user
+        where role = 1
+    </select>
+
+    <!--根据 username 获取管理员账号-->
+    <select id="getAdminByUsername" resultMap="BaseResultMap">
+        select username, password, name, sex, header, nickname, user_email, created_time, update_time, signature, comment, role, user_id
+        from bl_user
+        where username = #{username} and role = 1
+    </select>
+</mapper>

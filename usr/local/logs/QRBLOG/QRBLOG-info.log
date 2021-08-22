@@ -1,0 +1,357 @@
+2021-08-22 20:11:29.836 INFO  [background-preinit]org.hibernate.validator.internal.util.Version.<clinit>:21 -HV000001: Hibernate Validator 6.1.6.Final
+2021-08-22 20:11:29.878 INFO  [main]com.qr.blog.BlogApplication.logStarting:55 -Starting BlogApplication on QR with PID 14704 (D:\qr-box\target\classes started by QR in D:\qr-box)
+2021-08-22 20:11:29.951 INFO  [main]com.qr.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2021-08-22 20:11:31.178 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-22 20:11:31.182 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-22 20:11:31.232 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2021-08-22 20:11:31.748 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:31.758 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$5344dcfc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:31.762 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$3a1c813e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:31.771 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2021-08-22 20:11:31.839 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:31.850 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:31.882 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:32.971 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-08-22 20:11:32.971 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.007 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.340 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.347 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.352 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.355 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userMapper' of type [com.sun.proxy.$Proxy76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.357 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'redisConfig' of type [com.qr.blog.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$d0b5fdb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.362 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.364 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.448 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.556 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.707 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.732 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userServiceImpl' of type [com.qr.blog.service.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.733 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sysUserRealm' of type [com.qr.blog.config.shiro.realm.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.742 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.qr.blog.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$962270c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.747 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sessionDaoConfig' of type [com.qr.blog.config.shiro.SessionDaoConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.775 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:33.800 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:11:34.188 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2021-08-22 20:11:34.197 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-22 20:11:34.198 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-08-22 20:11:34.198 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-22 20:11:34.200 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-08-22 20:11:34.200 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-22 20:11:34.200 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-22 20:11:34.204 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-08-22 20:11:34.309 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-08-22 20:11:34.310 INFO  [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 4255 ms
+2021-08-22 20:11:35.265 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-22 20:11:35.762 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2021-08-22 20:11:35.784 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-22 20:11:35.793 INFO  [main]com.qr.blog.BlogApplication.logStarted:61 -Started BlogApplication in 7.082 seconds (JVM running for 8.477)
+2021-08-22 20:11:56.279 INFO  [http-nio-8080-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-22 20:11:56.280 INFO  [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-08-22 20:11:56.300 INFO  [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 19 ms
+2021-08-22 20:11:56.334 INFO  [http-nio-8080-exec-1]o.a.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation:233 -Enabling session validation scheduler...
+2021-08-22 20:11:58.351 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /link/list
+2021-08-22 20:11:58.351 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /user/getQRInfo
+2021-08-22 20:11:58.351 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:11:58.351 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:11:58.352 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:11:58.352 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:11:58.353 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.LinkController.linkList
+2021-08-22 20:11:58.353 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.UserController.getSysUser
+2021-08-22 20:11:58.681 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 327ms
+2021-08-22 20:11:58.693 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"comment":"希望能成为一个优秀的Java工程师","header":"https://gitee.com/qrlearning/image/raw/master/img/66ceb910c579d0d8.jpg","name":"QR","signature":"正在努力","userId":1},"msg":"操作成功！"}
+2021-08-22 20:11:58.884 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 530ms
+2021-08-22 20:11:58.888 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":[],"msg":"操作成功！"}
+2021-08-22 20:11:58.926 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /blog/getByPage
+2021-08-22 20:11:58.928 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:11:58.927 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /blog/getByPage
+2021-08-22 20:11:58.929 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:11:58.926 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /blog/getByPage
+2021-08-22 20:11:58.936 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:11:58.937 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:11:58.937 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:11:58.937 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:11:58.937 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogController.getByPage
+2021-08-22 20:11:58.938 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogController.getByPage
+2021-08-22 20:11:58.936 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogController.getByPage
+2021-08-22 20:11:58.956 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"index":0,"pageNumber":1,"pageSize":5,"params":{},"sortColumn":"blog_read","sortMethod":"desc"}
+2021-08-22 20:11:58.959 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"index":0,"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc"}
+2021-08-22 20:11:58.960 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"index":0,"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc"}
+2021-08-22 20:11:59.033 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /tag/getHotTag
+2021-08-22 20:11:59.033 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:11:59.034 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:11:59.034 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.TagController.getHotTag
+2021-08-22 20:11:59.066 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 30ms
+2021-08-22 20:11:59.069 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":[{"tagCount":4,"tagName":"test"},{"tagCount":3,"tagName":"list"},{"tagCount":1,"tagName":"Set"},{"tagCount":1,"tagName":"图片测试"}],"msg":"操作成功！"}
+2021-08-22 20:11:59.209 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 249ms
+2021-08-22 20:11:59.211 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 251ms
+2021-08-22 20:11:59.210 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 249ms
+2021-08-22 20:11:59.228 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423533605631574016,"blogImage":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGEM2BuAEg2UAAGqGq-Jdwg474.jpg","blogRead":0,"blogRemark":"测试图片","blogSource":"测试图片","blogTitle":"测试图片","blogType":9,"createdTime":"2021-08-06 14:37:14","tagsName":["图片测试"],"typeName":"Test","updateTime":"2021-08-06 14:37:14"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423184723655589888,"blogRead":0,"blogRemark":"第二次测试博客","blogSource":"测试博客","blogTitle":"第二次测试博客","blogType":9,"createdTime":"2021-08-05 15:30:54","tagsName":["test","Set"],"typeName":"Test","updateTime":"2021-08-05 19:46:10"}],"pageNumber":1,"pageSize":5,"params":{},"sortColumn":"blog_read","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2021-08-22 20:11:59.229 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423533605631574016,"blogImage":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGEM2BuAEg2UAAGqGq-Jdwg474.jpg","blogRead":0,"blogRemark":"测试图片","blogSource":"测试图片","blogTitle":"测试图片","blogType":9,"createdTime":"2021-08-06 14:37:14","tagsName":["图片测试"],"typeName":"Test","updateTime":"2021-08-06 14:37:14"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423184723655589888,"blogRead":0,"blogRemark":"第二次测试博客","blogSource":"测试博客","blogTitle":"第二次测试博客","blogType":9,"createdTime":"2021-08-05 15:30:54","tagsName":["test","Set"],"typeName":"Test","updateTime":"2021-08-05 19:46:10"}],"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2021-08-22 20:11:59.234 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423533605631574016,"blogImage":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGEM2BuAEg2UAAGqGq-Jdwg474.jpg","blogRead":0,"blogRemark":"测试图片","blogSource":"测试图片","blogTitle":"测试图片","blogType":9,"createdTime":"2021-08-06 14:37:14","tagsName":["图片测试"],"typeName":"Test","updateTime":"2021-08-06 14:37:14"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423184723655589888,"blogRead":0,"blogRemark":"第二次测试博客","blogSource":"测试博客","blogTitle":"第二次测试博客","blogType":9,"createdTime":"2021-08-05 15:30:54","tagsName":["test","Set"],"typeName":"Test","updateTime":"2021-08-05 19:46:10"}],"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2021-08-22 20:12:12.524 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /user/login
+2021-08-22 20:12:12.525 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:12:12.525 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:12.526 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.UserController.login
+2021-08-22 20:12:12.528 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"password":"e10adc3949ba59abbe56e057f20f883e","username":"visitor"}
+2021-08-22 20:12:12.562 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 34ms
+2021-08-22 20:12:12.564 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"token":"a94a4939-2353-4f3e-8858-01d87b332576"},"msg":"操作成功！"}
+2021-08-22 20:12:12.595 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /user/getUserInfo
+2021-08-22 20:12:12.596 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:12:12.596 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:12.596 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.UserController.getUserInfo
+2021-08-22 20:12:12.601 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 4ms
+2021-08-22 20:12:12.602 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"header":"https://gitee.com/qrlearning/image/raw/master/img/Umy.jpg","name":"Visitor","nickname":"Visitor","password":"e10adc3949ba59abbe56e057f20f883e","sex":1,"userEmail":"3478493292@qq.com","userId":2,"username":"visitor"},"msg":"操作成功！"}
+2021-08-22 20:12:14.318 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /user/login
+2021-08-22 20:12:14.319 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:12:14.320 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:14.322 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.UserController.login
+2021-08-22 20:12:14.324 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"password":"e10adc3949ba59abbe56e057f20f883e","username":"visitor"}
+2021-08-22 20:12:14.334 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 9ms
+2021-08-22 20:12:14.334 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"token":"e8e86b8d-52bc-4103-b665-ecbf849dd3d4"},"msg":"操作成功！"}
+2021-08-22 20:12:14.574 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /blog/getByPage
+2021-08-22 20:12:14.577 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:12:14.579 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:14.580 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogController.getByPage
+2021-08-22 20:12:14.581 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"index":0,"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc"}
+2021-08-22 20:12:14.619 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 37ms
+2021-08-22 20:12:14.621 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423533605631574016,"blogImage":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGEM2BuAEg2UAAGqGq-Jdwg474.jpg","blogRead":0,"blogRemark":"测试图片","blogSource":"测试图片","blogTitle":"测试图片","blogType":9,"createdTime":"2021-08-06 14:37:14","tagsName":["图片测试"],"typeName":"Test","updateTime":"2021-08-06 14:37:14"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423184723655589888,"blogRead":0,"blogRemark":"第二次测试博客","blogSource":"测试博客","blogTitle":"第二次测试博客","blogType":9,"createdTime":"2021-08-05 15:30:54","tagsName":["test","Set"],"typeName":"Test","updateTime":"2021-08-05 19:46:10"}],"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2021-08-22 20:12:14.795 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /user/getQRInfo
+2021-08-22 20:12:14.796 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /music/getAllEnableMusic
+2021-08-22 20:12:14.796 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:12:14.796 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:12:14.796 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:14.796 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /blog/getByPage
+2021-08-22 20:12:14.796 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /link/list
+2021-08-22 20:12:14.796 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:14.796 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.UserController.getSysUser
+2021-08-22 20:12:14.796 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:12:14.797 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /blog/getByPage
+2021-08-22 20:12:14.797 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:12:14.797 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.MusicController.getAllEnable
+2021-08-22 20:12:14.797 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:14.797 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:12:14.797 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogController.getByPage
+2021-08-22 20:12:14.797 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:14.797 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:14.799 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.LinkController.linkList
+2021-08-22 20:12:14.799 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogController.getByPage
+2021-08-22 20:12:14.799 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"index":0,"pageNumber":1,"pageSize":5,"params":{},"sortColumn":"blog_read","sortMethod":"desc"}
+2021-08-22 20:12:14.799 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 2ms
+2021-08-22 20:12:14.799 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"index":0,"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc"}
+2021-08-22 20:12:14.800 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"comment":"希望能成为一个优秀的Java工程师","header":"https://gitee.com/qrlearning/image/raw/master/img/66ceb910c579d0d8.jpg","name":"QR","signature":"正在努力","userId":1},"msg":"操作成功！"}
+2021-08-22 20:12:14.814 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 15ms
+2021-08-22 20:12:14.815 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":[],"msg":"操作成功！"}
+2021-08-22 20:12:14.839 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 42ms
+2021-08-22 20:12:14.848 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":[{"artist":"陈奕迅","createdTime":"2021-08-06 21:48:02","enable":1,"id":3,"name":"苦瓜","url":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGENPYiATQjUAK4GqK6mIIs020.mp3"}],"msg":"操作成功！"}
+2021-08-22 20:12:14.917 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 118ms
+2021-08-22 20:12:14.918 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423533605631574016,"blogImage":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGEM2BuAEg2UAAGqGq-Jdwg474.jpg","blogRead":0,"blogRemark":"测试图片","blogSource":"测试图片","blogTitle":"测试图片","blogType":9,"createdTime":"2021-08-06 14:37:14","tagsName":["图片测试"],"typeName":"Test","updateTime":"2021-08-06 14:37:14"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423184723655589888,"blogRead":0,"blogRemark":"第二次测试博客","blogSource":"测试博客","blogTitle":"第二次测试博客","blogType":9,"createdTime":"2021-08-05 15:30:54","tagsName":["test","Set"],"typeName":"Test","updateTime":"2021-08-05 19:46:10"}],"pageNumber":1,"pageSize":5,"params":{},"sortColumn":"blog_read","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2021-08-22 20:12:14.929 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 129ms
+2021-08-22 20:12:14.930 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423533605631574016,"blogImage":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGEM2BuAEg2UAAGqGq-Jdwg474.jpg","blogRead":0,"blogRemark":"测试图片","blogSource":"测试图片","blogTitle":"测试图片","blogType":9,"createdTime":"2021-08-06 14:37:14","tagsName":["图片测试"],"typeName":"Test","updateTime":"2021-08-06 14:37:14"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423184723655589888,"blogRead":0,"blogRemark":"第二次测试博客","blogSource":"测试博客","blogTitle":"第二次测试博客","blogType":9,"createdTime":"2021-08-05 15:30:54","tagsName":["test","Set"],"typeName":"Test","updateTime":"2021-08-05 19:46:10"}],"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2021-08-22 20:12:14.970 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /tag/getHotTag
+2021-08-22 20:12:14.971 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:12:14.973 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:14.974 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.TagController.getHotTag
+2021-08-22 20:12:14.991 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 16ms
+2021-08-22 20:12:14.993 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":[{"tagCount":4,"tagName":"test"},{"tagCount":3,"tagName":"list"},{"tagCount":1,"tagName":"Set"},{"tagCount":1,"tagName":"图片测试"}],"msg":"操作成功！"}
+2021-08-22 20:12:17.242 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /goods/getGoods/1423533605631574016
+2021-08-22 20:12:17.241 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /blog/getInfo/1423533605631574016
+2021-08-22 20:12:17.241 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /collection/getCollection/1423533605631574016
+2021-08-22 20:12:17.243 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /comment/getByBlogId/1423533605631574016
+2021-08-22 20:12:17.244 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:12:17.244 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:12:17.244 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:12:17.244 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:12:17.244 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:17.244 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:17.244 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:17.244 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:17.244 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogCollectionController.getGoods
+2021-08-22 20:12:17.244 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogCommentController.getByBlogId
+2021-08-22 20:12:17.245 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogController.getInfo
+2021-08-22 20:12:17.245 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogGoodsController.getGoods
+2021-08-22 20:12:17.245 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: 1423533605631574016
+2021-08-22 20:12:17.245 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: 1423533605631574016
+2021-08-22 20:12:17.245 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: 1423533605631574016
+2021-08-22 20:12:17.245 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: 1423533605631574016
+2021-08-22 20:12:17.249 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 4ms
+2021-08-22 20:12:17.250 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"msg":"操作成功！"}
+2021-08-22 20:12:17.281 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 36ms
+2021-08-22 20:12:17.282 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"blogCollection":0,"blogComment":0,"blogContent":"<p>测试图片</p>","blogGoods":0,"blogId":1423533605631574016,"blogImage":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGEM2BuAEg2UAAGqGq-Jdwg474.jpg","blogRead":0,"blogRemark":"测试图片","blogSource":"测试图片","blogTitle":"测试图片","blogType":9,"createdTime":"2021-08-06 14:37:14","typeName":"Test","updateTime":"2021-08-06 14:37:14"},"msg":"操作成功！"}
+2021-08-22 20:12:17.286 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 40ms
+2021-08-22 20:12:17.288 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 42ms
+2021-08-22 20:12:17.290 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":[],"msg":"操作成功！"}
+2021-08-22 20:12:17.290 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":0,"msg":"操作成功！"}
+2021-08-22 20:12:18.263 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /goods/goods/1423533605631574016
+2021-08-22 20:12:18.264 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:12:18.264 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:18.264 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogGoodsController.goods
+2021-08-22 20:12:18.265 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: 1423533605631574016
+2021-08-22 20:12:18.281 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 16ms
+2021-08-22 20:12:18.282 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"msg":"感谢点赞 ψ(｀∇´)ψ"}
+2021-08-22 20:12:19.694 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /collection/collection/1423533605631574016
+2021-08-22 20:12:19.694 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:12:19.694 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:12:19.695 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogCollectionController.goods
+2021-08-22 20:12:19.695 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: 1423533605631574016
+2021-08-22 20:14:36.716 INFO  [SpringContextShutdownHook]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2021-08-22 20:14:36.718 INFO  [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:218 -Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-22 20:14:36.723 INFO  [SpringContextShutdownHook]o.a.shiro.session.mgt.AbstractValidatingSessionManager.disableSessionValidation:250 -Disabled session validation scheduler.
+2021-08-22 20:14:36.884 INFO  [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2021-08-22 20:14:40.467 INFO  [background-preinit]org.hibernate.validator.internal.util.Version.<clinit>:21 -HV000001: Hibernate Validator 6.1.6.Final
+2021-08-22 20:14:40.491 INFO  [main]com.qr.blog.BlogApplication.logStarting:55 -Starting BlogApplication on QR with PID 14264 (D:\qr-box\target\classes started by QR in D:\qr-box)
+2021-08-22 20:14:40.492 INFO  [main]com.qr.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2021-08-22 20:14:41.467 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-22 20:14:41.469 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-22 20:14:41.507 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2021-08-22 20:14:41.874 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:41.885 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d7dd4568] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:41.887 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$beb4e9aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:41.900 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2021-08-22 20:14:41.953 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:41.968 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:41.996 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:42.965 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-08-22 20:14:42.965 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.003 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.253 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.260 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.265 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.270 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userMapper' of type [com.sun.proxy.$Proxy76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.273 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'redisConfig' of type [com.qr.blog.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$91a3c847] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.280 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.285 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.358 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.431 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.535 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.560 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userServiceImpl' of type [com.qr.blog.service.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.562 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sysUserRealm' of type [com.qr.blog.config.shiro.realm.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.570 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.qr.blog.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$1abad933] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.574 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sessionDaoConfig' of type [com.qr.blog.config.shiro.SessionDaoConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.595 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.613 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 20:14:43.894 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2021-08-22 20:14:43.902 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-22 20:14:43.902 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-08-22 20:14:43.902 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-22 20:14:43.905 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-08-22 20:14:43.905 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-22 20:14:43.905 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-22 20:14:43.910 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-08-22 20:14:43.998 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-08-22 20:14:43.998 INFO  [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 3431 ms
+2021-08-22 20:14:44.766 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-22 20:14:45.231 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2021-08-22 20:14:45.251 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-22 20:14:45.259 INFO  [main]com.qr.blog.BlogApplication.logStarted:61 -Started BlogApplication in 5.302 seconds (JVM running for 6.437)
+2021-08-22 20:14:50.943 INFO  [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-22 20:14:50.943 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-08-22 20:14:50.956 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 12 ms
+2021-08-22 20:14:50.974 INFO  [http-nio-8080-exec-1]o.a.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation:233 -Enabling session validation scheduler...
+2021-08-22 20:14:53.737 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /user/login
+2021-08-22 20:14:53.737 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:14:53.738 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:14:53.738 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.UserController.login
+2021-08-22 20:14:53.751 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"password":"e10adc3949ba59abbe56e057f20f883e","username":"visitor"}
+2021-08-22 20:14:53.831 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 79ms
+2021-08-22 20:14:53.834 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"token":"46748932-0f99-4c40-88a3-2dfaac17e6a9"},"msg":"操作成功！"}
+2021-08-22 20:14:53.884 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /user/getUserInfo
+2021-08-22 20:14:53.884 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:14:53.885 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:14:53.885 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.UserController.getUserInfo
+2021-08-22 20:14:53.889 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 4ms
+2021-08-22 20:14:53.890 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"header":"https://gitee.com/qrlearning/image/raw/master/img/Umy.jpg","name":"Visitor","nickname":"Visitor","password":"e10adc3949ba59abbe56e057f20f883e","sex":1,"userEmail":"3478493292@qq.com","userId":2,"username":"visitor"},"msg":"操作成功！"}
+2021-08-22 20:14:55.111 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /user/login
+2021-08-22 20:14:55.112 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:14:55.112 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:14:55.112 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.UserController.login
+2021-08-22 20:14:55.113 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"password":"e10adc3949ba59abbe56e057f20f883e","username":"visitor"}
+2021-08-22 20:14:55.121 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 8ms
+2021-08-22 20:14:55.121 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"token":"8087aa5c-2a8d-4578-9749-caf89957f45b"},"msg":"操作成功！"}
+2021-08-22 20:14:55.392 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /blog/getByPage
+2021-08-22 20:14:55.393 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:14:55.393 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:14:55.393 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogController.getByPage
+2021-08-22 20:14:55.402 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"index":0,"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc"}
+2021-08-22 20:14:55.487 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 84ms
+2021-08-22 20:14:55.492 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423533605631574016,"blogImage":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGEM2BuAEg2UAAGqGq-Jdwg474.jpg","blogRead":0,"blogRemark":"测试图片","blogSource":"测试图片","blogTitle":"测试图片","blogType":9,"createdTime":"2021-08-06 14:37:14","tagsName":["图片测试"],"typeName":"Test","updateTime":"2021-08-06 14:37:14"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423184723655589888,"blogRead":0,"blogRemark":"第二次测试博客","blogSource":"测试博客","blogTitle":"第二次测试博客","blogType":9,"createdTime":"2021-08-05 15:30:54","tagsName":["test","Set"],"typeName":"Test","updateTime":"2021-08-05 19:46:10"}],"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2021-08-22 20:14:55.509 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /blog/getByPage
+2021-08-22 20:14:55.510 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:14:55.510 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:14:55.511 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogController.getByPage
+2021-08-22 20:14:55.511 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"index":0,"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc"}
+2021-08-22 20:14:55.526 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /user/getQRInfo
+2021-08-22 20:14:55.526 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /link/list
+2021-08-22 20:14:55.526 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /music/getAllEnableMusic
+2021-08-22 20:14:55.526 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:14:55.526 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:14:55.527 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:14:55.527 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:14:55.527 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:14:55.527 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /blog/getByPage
+2021-08-22 20:14:55.527 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:14:55.527 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.LinkController.linkList
+2021-08-22 20:14:55.527 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.UserController.getSysUser
+2021-08-22 20:14:55.527 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:14:55.527 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.MusicController.getAllEnable
+2021-08-22 20:14:55.528 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:14:55.528 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogController.getByPage
+2021-08-22 20:14:55.530 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"index":0,"pageNumber":1,"pageSize":5,"params":{},"sortColumn":"blog_read","sortMethod":"desc"}
+2021-08-22 20:14:55.537 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 10ms
+2021-08-22 20:14:55.544 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"comment":"希望能成为一个优秀的Java工程师","header":"https://gitee.com/qrlearning/image/raw/master/img/66ceb910c579d0d8.jpg","name":"QR","signature":"正在努力","userId":1},"msg":"操作成功！"}
+2021-08-22 20:14:55.546 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 18ms
+2021-08-22 20:14:55.550 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 23ms
+2021-08-22 20:14:55.551 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":[],"msg":"操作成功！"}
+2021-08-22 20:14:55.553 INFO  [http-nio-8080-exec-10]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":[{"artist":"陈奕迅","createdTime":"2021-08-06 21:48:02","enable":1,"id":3,"name":"苦瓜","url":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGENPYiATQjUAK4GqK6mIIs020.mp3"}],"msg":"操作成功！"}
+2021-08-22 20:14:55.575 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 64ms
+2021-08-22 20:14:55.576 INFO  [http-nio-8080-exec-6]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423533605631574016,"blogImage":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGEM2BuAEg2UAAGqGq-Jdwg474.jpg","blogRead":0,"blogRemark":"测试图片","blogSource":"测试图片","blogTitle":"测试图片","blogType":9,"createdTime":"2021-08-06 14:37:14","tagsName":["图片测试"],"typeName":"Test","updateTime":"2021-08-06 14:37:14"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423184723655589888,"blogRead":0,"blogRemark":"第二次测试博客","blogSource":"测试博客","blogTitle":"第二次测试博客","blogType":9,"createdTime":"2021-08-05 15:30:54","tagsName":["test","Set"],"typeName":"Test","updateTime":"2021-08-05 19:46:10"}],"pageNumber":1,"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2021-08-22 20:14:55.594 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 64ms
+2021-08-22 20:14:55.595 INFO  [http-nio-8080-exec-8]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423533605631574016,"blogImage":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGEM2BuAEg2UAAGqGq-Jdwg474.jpg","blogRead":0,"blogRemark":"测试图片","blogSource":"测试图片","blogTitle":"测试图片","blogType":9,"createdTime":"2021-08-06 14:37:14","tagsName":["图片测试"],"typeName":"Test","updateTime":"2021-08-06 14:37:14"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":1423184723655589888,"blogRead":0,"blogRemark":"第二次测试博客","blogSource":"测试博客","blogTitle":"第二次测试博客","blogType":9,"createdTime":"2021-08-05 15:30:54","tagsName":["test","Set"],"typeName":"Test","updateTime":"2021-08-05 19:46:10"}],"pageNumber":1,"pageSize":5,"params":{},"sortColumn":"blog_read","sortMethod":"desc","totalCount":2,"totalPage":1},"msg":"操作成功！"}
+2021-08-22 20:14:55.835 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /tag/getHotTag
+2021-08-22 20:14:55.835 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:14:55.835 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:14:55.836 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.TagController.getHotTag
+2021-08-22 20:14:55.843 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 7ms
+2021-08-22 20:14:55.844 INFO  [http-nio-8080-exec-1]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":[{"tagCount":4,"tagName":"test"},{"tagCount":3,"tagName":"list"},{"tagCount":1,"tagName":"Set"},{"tagCount":1,"tagName":"图片测试"}],"msg":"操作成功！"}
+2021-08-22 20:15:02.927 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /blog/getInfo/1423533605631574016
+2021-08-22 20:15:02.928 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:15:02.930 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:15:02.930 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /goods/getGoods/1423533605631574016
+2021-08-22 20:15:02.931 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogController.getInfo
+2021-08-22 20:15:02.931 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:15:02.932 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: 1423533605631574016
+2021-08-22 20:15:02.935 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /collection/getCollection/1423533605631574016
+2021-08-22 20:15:02.935 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:15:02.935 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:15:02.935 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /comment/getByBlogId/1423533605631574016
+2021-08-22 20:15:02.936 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:15:02.936 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogGoodsController.getGoods
+2021-08-22 20:15:02.936 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: GET
+2021-08-22 20:15:02.936 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogCollectionController.getGoods
+2021-08-22 20:15:02.936 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:15:02.936 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: 1423533605631574016
+2021-08-22 20:15:02.937 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: 1423533605631574016
+2021-08-22 20:15:02.937 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogCommentController.getByBlogId
+2021-08-22 20:15:02.937 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: 1423533605631574016
+2021-08-22 20:15:02.940 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 3ms
+2021-08-22 20:15:02.941 INFO  [http-nio-8080-exec-9]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"msg":"操作成功！"}
+2021-08-22 20:15:02.958 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 20ms
+2021-08-22 20:15:02.958 INFO  [http-nio-8080-exec-5]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":[],"msg":"操作成功！"}
+2021-08-22 20:15:02.973 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 38ms
+2021-08-22 20:15:02.974 INFO  [http-nio-8080-exec-4]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":{"blogCollection":0,"blogComment":0,"blogContent":"<p>测试图片</p>","blogGoods":0,"blogId":1423533605631574016,"blogImage":"http://120.26.58.150:8888/group1/M00/00/00/rBsCIGEM2BuAEg2UAAGqGq-Jdwg474.jpg","blogRead":0,"blogRemark":"测试图片","blogSource":"测试图片","blogTitle":"测试图片","blogType":9,"createdTime":"2021-08-06 14:37:14","typeName":"Test","updateTime":"2021-08-06 14:37:14"},"msg":"操作成功！"}
+2021-08-22 20:15:02.982 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 45ms
+2021-08-22 20:15:02.985 INFO  [http-nio-8080-exec-7]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"data":1,"msg":"操作成功！"}
+2021-08-22 20:15:04.974 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /collection/collection/1423533605631574016
+2021-08-22 20:15:04.974 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:15:04.974 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:15:04.975 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogCollectionController.goods
+2021-08-22 20:15:04.975 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: 1423533605631574016
+2021-08-22 20:15:05.000 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:103 -方法执行耗时: 25ms
+2021-08-22 20:15:05.000 INFO  [http-nio-8080-exec-3]com.qr.blog.aop.RequestAspect.doAround:107 -返回值: {"code":20000,"msg":"感谢收藏 (´▽`ʃ♡ƪ)"}
+2021-08-22 20:22:21.464 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:65 -请求地址: /comment/save
+2021-08-22 20:22:21.465 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:68 -请求方式: POST
+2021-08-22 20:22:21.465 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:71 -请求IP: 127.0.0.1
+2021-08-22 20:22:21.465 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:74 -请求方法: com.qr.blog.controller.BlogCommentController.save
+2021-08-22 20:22:21.468 INFO  [http-nio-8080-exec-2]com.qr.blog.aop.RequestAspect.doAround:86 -请求参数: {"blogId":1423533605631574016,"content":"测试评论"}
+2021-08-22 20:47:38.846 INFO  [SpringContextShutdownHook]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2021-08-22 20:47:38.849 INFO  [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:218 -Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-22 20:47:38.865 INFO  [SpringContextShutdownHook]o.a.shiro.session.mgt.AbstractValidatingSessionManager.disableSessionValidation:250 -Disabled session validation scheduler.
+2021-08-22 20:47:39.046 INFO  [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed

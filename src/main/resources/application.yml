@@ -1,0 +1,62 @@
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+    date-format: yyyy-MM-dd HH:mm:ss
+    default-property-inclusion: non_null
+    time-zone: GMT+8
+  application:
+    name: "QRBLOG"
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/qrblog?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8
+      username: QR
+      password: QRWUDI666
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      initialSize: 5
+      minIdle: 5
+      maxActive: 20
+      maxWait: 10000
+      testOnBorrow: true
+      testOnReturn: false
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
+  redis:
+    host: 127.0.0.1
+    port: 6379
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.qr.Blog.pojo
+
+# FastDfs 服务配置
+fdfs:
+  connect-timeout: 3000
+  so-timeout: 3000
+  thumb-image:
+    width: 100
+    height: 100
+  tracker-list:
+    - 120.26.58.150:22122
+# FastDfs
+upload:
+  base-url: http://120.26.58.150:8888/
+  allow-types:
+    - image/jpeg
+    - image/png
+    - image/bng
+    - image/jpg
+    - image/gif
+    - audio/mp3
+    - audio/mpeg
+server:
+  port: 8080
+
+jwt:
+  header: Authorization
+  token:
+    secret: mySecret
+    expiration: 86400

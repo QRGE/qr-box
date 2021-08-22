@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qr.blog.mapper.SysLogMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.qr.blog.pojo.SysLog">
+        <id column="log_id" property="logId"/>
+        <result column="log_url" property="logUrl"/>
+        <result column="log_params" property="logParams"/>
+        <result column="log_status" property="logStatus"/><!--操作状态, 1:正常, 0:异常-->
+        <result column="log_message" property="logMessage"/>
+        <result column="log_ua" property="logUa"/><!--浏览器 ua 标识-->
+        <result column="log_controller" property="logController"/>
+        <result column="log_method" property="logMethod"/>
+        <result column="log_time" property="logTime"/>
+        <result column="log_result" property="logResult"/>
+        <result column="log_ip" property="logIp"/>
+        <result column="created_date" property="createdDate"/>
+        <result column="created_by" property="createdBy"/>
+    </resultMap>
+
+    <!--sql标签可以定义通用的SQL代码片段-->
+    <!-- 通用查询结果列 -->
+    <insert id="save">
+        insert into bl_sys_log (log_id, log_url, log_params, log_status, log_message,
+        log_ua, log_controller,log_method, log_time, log_result, log_ip, created_by)
+        values (#{logId}, #{logUrl}, #{logParams}, #{logStatus}, #{logMessage},
+        #{logUa}, #{logController}, #{logMethod}, #{logTime}, #{logResult}, #{logIp}, #{createdBy})
+    </insert>
+
+    <select id="getByPage" resultMap="BaseResultMap">
+        select log_id, log_url, log_status, log_ua, log_controller, log_method, log_time, log_ip, created_date, created_by
+        from bl_sys_log
+        <where>
+            <if test="params.logUrl!=null and params.logUrl!=''">
+                and log_url like concat('%', #{params.logUrl},'%')
+            </if>
+            <if test="params.logStatus!=null">
+                and log_status = #{params.logStatus}
+            </if>
+            <if test="params.createdBy!=null and params.createdBy!=''">
+                and created_by like concat('%', #{params.createdBy},'%')
+            </if>
+            <if test="params.createDateStart!=null and params.createDateStart != ''">
+                and created_date between #{params.createDateStart} and #{params.createDateEnd}
+            </if>
+        </where>
+        order by created_date desc
+        limit #{index}, #{pageSize}
+    </select>
+
+    <select id="countByPage" resultType="java.lang.Integer">
+        select
+        count(*)
+        from bl_sys_log
+        <where>
+            <if test="params.logUrl != null and params.logUrl != ''">
+                and log_url like concat('%', #{params.logUrl},'%')
+            </if>
+            <if test="params.logStatus !=null ">
+                and log_status = #{params.logStatus}
+            </if>
+            <if test="params.createBy != null and params.createBy != '' ">
+                and create_by like concat('%', #{params.createdBy},'%')
+            </if>
+            <if test="params.createDateStart != null and params.createDateStart != ''">
+                and create_date between #{params.createDateStart} and #{params.createDateEnd}
+            </if>
+        </where>
+    </select>
+
+    <select id="getById" resultMap="BaseResultMap">
+        select *
+        from bl_sys_log
+        where log_id = #{id}
+    </select>
+
+    <delete id="deleteById">
+        delete from bl_sys_log
+        where log_id = #{id}
+    </delete>
+</mapper>
